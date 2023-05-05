@@ -1,8 +1,9 @@
+DEPS= Mo
 compile: main.c 
-	 gcc main.c -o ming
+	 g++ main.c -o $(DEPS)
 
-run: ming
-	 ./ming
+run: $(DEPS)
+	 ./$(DEPS)
 
-clean: ming
-	 rm ming
+clean: $(DEPS)
+	 rm $(DEPS)
