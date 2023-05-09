@@ -1,6 +1,6 @@
 DEPS= Mo
 compile: main.c 
-	 g++ main.c -o $(DEPS)
+	 gcc main.c -o $(DEPS)
 
 run: $(DEPS)
 	 ./$(DEPS)
